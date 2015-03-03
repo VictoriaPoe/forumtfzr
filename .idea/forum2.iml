@@ -12,7 +12,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/nesbot/carbon" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/patchwork/utf8" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpseclib/phpseclib" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/predis/predis" />
@@ -43,7 +42,6 @@
           <root url="file://$MODULE_DIR$/vendor/symfony/browser-kit" />
           <root url="file://$MODULE_DIR$/vendor/ircmaxell/password-compat" />
           <root url="file://$MODULE_DIR$/vendor/nesbot/carbon" />
-          <root url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
           <root url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher" />
           <root url="file://$MODULE_DIR$/vendor/stack/builder" />
           <root url="file://$MODULE_DIR$/vendor/symfony/http-kernel" />
@@ -76,7 +74,6 @@
           <root url="file://$MODULE_DIR$/vendor/symfony/browser-kit" />
           <root url="file://$MODULE_DIR$/vendor/ircmaxell/password-compat" />
           <root url="file://$MODULE_DIR$/vendor/nesbot/carbon" />
-          <root url="file://$MODULE_DIR$/vendor/nikic/php-parser" />
           <root url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher" />
           <root url="file://$MODULE_DIR$/vendor/stack/builder" />
           <root url="file://$MODULE_DIR$/vendor/symfony/http-kernel" />

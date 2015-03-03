@@ -1,3 +1,6 @@
+
+
+
 .panel-body.panel-list-group
 {
 	padding: 0;
@@ -14,7 +17,7 @@
 }
 
 body {
-    background-image: url("http://wallpaperscraft.com/image/lines_wavy_background_light_43976_3840x2400.jpg");
+    background-color: lightblue;
 }
 
 h1 {
@@ -84,19 +87,17 @@ p {
 }
 
 .form-group {
-    text-align: center;
-    align-content: center;
-}
+     text-align: center;
+     align-content: center;
+
+
+ }
 
 .frames-container {
     text-align: center;
     align-content: center;
 }
 
-.form-group {
-    text-align: center;
-    align-content: center;
-}
 
 .navbar-header
 .container-fluid
@@ -117,8 +118,8 @@ p {
 
 
 
+/* drustveni linkovi */
 
-a,a:visited { color: #fff; }
 a:hover { color: #fff; }
 
 .social {
@@ -154,200 +155,127 @@ a:hover { color: #fff; }
 
 
 
+/* registracija, log  */
 
-
-
-$body-bg: #c1bdba;
-$form-bg: #13232f;
-$white: #ffffff;
-
-$main: #1ab188;
-$main-light: lighten($main,5%);
-$main-dark: darken($main,5%);
-
-$gray-light: #a0b3b0;
-$gray: #ddd;
-
-$thin: 300;
-$normal: 400;
-$bold: 600;
-$br: 4px;
-
-*, *:before, *:after {
-    box-sizing: border-box;
-}
-
-html {
-    overflow-y: scroll;
-}
-
-body {
-    background:$body-bg;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-a {
-    text-decoration:none;
-    color:$main;
-    transition:.5s ease;
-&:hover {
-     color:$main-dark;
- }
-}
-
-.form {
-    background:rgba($form-bg,.9);
-    padding: 40px;
-    max-width:600px;
-    margin:40px auto;
-    border-radius:$br;
-    box-shadow:0 4px 10px 4px rgba($form-bg,.3);
-}
-
-.tab-group {
-    list-style:none;
-    padding:0;
-    margin:0 0 40px 0;
-&:after {
-     content: "";
-     display: table;
-     clear: both;
- }
-li a {
+.button{
+    width:100px;
+    background:#3399cc;
     display:block;
-    text-decoration:none;
-    padding:15px;
-    background:rgba($gray-light,.25);
-    color:$gray-light;
-    font-size:20px;
-    float:left;
-    width:50%;
+    margin:0 auto;
+    margin-top:1%;
+    padding:10px;
     text-align:center;
+    text-decoration:none;
+    color:#fff;
     cursor:pointer;
-    transition:.5s ease;
-&:hover {
-     background:$main-dark;
-     color:$white;
- }
-}
-.active a {
-    background:$main;
-    color:$white;
-}
+    transition:background .3s;
+    -webkit-transition:background .3s;
 }
 
-.tab-content > div:last-child {
-    display:none;
+.button:hover{
+    background:#2288bb;
 }
 
+#login{
+    width:400px;
+    margin:0 auto;
+    margin-top:8px;
+    margin-bottom:2%;
+    transition:opacity 1s;
+    -webkit-transition:opacity 1s;
+}
 
-h1 {
+#triangle{
+    width:0;
+    border-top:12px solid transparent;
+    border-right:12px solid transparent;
+    border-bottom:12px solid #3399cc;
+    border-left:12px solid transparent;
+    margin:0 auto;
+}
+
+#login h1{
+    background:#3399cc;
+    padding:20px 0;
+    font-size:140%;
+    font-weight:300;
     text-align:center;
-    color:$white;
-    font-weight:$thin;
-    margin:0 0 40px;
+    color:#fff;
 }
 
-label {
-    position:absolute;
-    transform:translateY(6px);
-    left:13px;
-    color:rgba($white,.5);
-    transition:all 0.25s ease;
-    -webkit-backface-visibility: hidden;
-    pointer-events: none;
-    font-size:22px;
-.req {
-    margin:2px;
-    color:$main;
-}
+form{
+    background:#f0f0f0;
+    padding:6% 4%;
+
 }
 
-label.active {
-    transform:translateY(50px);
-    left:2px;
-    font-size:14px;
-.req {
-    opacity:0;
-}
+input[type="username"],input[type="password"]{
+    width:92%;
+    background:#fff;
+    margin-bottom:4%;
+    border:1px solid #ccc;
+    padding:4%;
+    font-family:'Open Sans',sans-serif;
+    font-size:95%;
+    color:#555;
+
 }
 
-label.highlight {
-    color:$white;
-}
-
-input, textarea {
-    font-size:22px;
-    display:block;
+input[type="submit"]{
     width:100%;
-    height:100%;
-    padding:5px 10px;
-    background:none;
-    background-image:none;
-    border:1px solid $gray-light;
-    color:$white;
-    border-radius:0;
-    transition:border-color .25s ease, box-shadow .25s ease;
-&:focus {
-     outline:0;
-     border-color:$main;
- }
-}
-
-textarea {
-    border:2px solid $gray-light;
-    resize: vertical;
-}
-
-.field-wrap {
-    position:relative;
-    margin-bottom:40px;
-}
-
-.top-row {
-&:after {
-     content: "";
-     display: table;
-     clear: both;
- }
-
-> div {
-      float:left;
-      width:48%;
-      margin-right:4%;
-&:last-child {
-     margin:0;
- }
-}
-}
-
-.button {
+    background:#3399cc;
     border:0;
-    outline:none;
-    border-radius:0;
-    padding:15px 0;
-    font-size:2rem;
-    font-weight:$bold;
-    text-transform:uppercase;
-    letter-spacing:.1em;
-    background:$main;
-    color:$white;
-    transition:all.5s ease;
-    -webkit-appearance: none;
-&:hover, &:focus {
-              background:$main-dark;
-          }
+    padding:4%;
+    font-family:'Open Sans',sans-serif;
+    font-size:100%;
+    color:#fff;
+    cursor:pointer;
+    transition:background .3s;
+    -webkit-transition:background .3s;
+
 }
 
-.button-block {
-    display:block;
-    width:100%;
+input[type="submit"]:hover{
+    background:#2288bb;
 }
 
-.forgot {
-    margin-top:-20px;
-    text-align:right;
+
+
+/* header */
+
+nav {
+    margin-top: 40px;
+    padding: 24px;
+    text-align: center;
+    font-family: fantasy;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
+#nav-3 {
+    background-color: steelblue;
+}
+
+
+.link-3 {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+}
+.link-3:hover {
+    background-color: #ffffff;
+    color: steelblue;
+    padding: 24px 10px;
+}
+
+
+
+
+
+
+
+
 
 
 
