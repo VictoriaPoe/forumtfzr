@@ -18,4 +18,5 @@ class ForumCategory extends Eloquent
 	{
 		return $this->hasMany('ForumComment', 'category_id');
 	}
+
 }

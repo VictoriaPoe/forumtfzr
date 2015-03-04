@@ -23,6 +23,7 @@
 		<h4>Od: {{ $author }} on {{ $thread->created_at }}</h4>
 		<hr>
 		<p>{{ nl2br(BBCode::parse($thread->body)) }}</p>
+
 	</div>
 
 	@foreach ($thread->comments()->get() as $comment)
@@ -46,6 +47,8 @@
 			<div class="form-group">
 				<input type="submit" value="Sačuvaj komentar" class="btn btn-primary">
 			</div>
+
+
 </form>
 	@endif
 

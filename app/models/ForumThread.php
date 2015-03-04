@@ -23,4 +23,5 @@ class ForumThread extends Eloquent
 	{
 		return $this->belongsTo('User', 'author_id');
 	}
+
 }

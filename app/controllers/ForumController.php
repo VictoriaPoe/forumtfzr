@@ -238,7 +238,7 @@ class ForumController extends BaseController
 			Redirect::route('forum')->with('fail', "Odabrana tema ne postoji.");
 
 		$validator = Validator::make(Input::all(), array(
-			'body' => 'required|min:5'
+			'body' => 'required|min:3'
 		));
 
 		if ($validator->fails())
@@ -271,5 +271,6 @@ class ForumController extends BaseController
 		else
 			return Redirect::route('forum-thread', $threadid)->with('fail', "Greška u brisanju komentara.");
 	}
+
 
 }

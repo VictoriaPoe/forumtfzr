@@ -21,6 +21,7 @@ class CreateForumCommentsTable extends Migration {
 			$table->integer('thread_id');
 			$table->integer('author_id');
 			$table->timestamps();
+
 		});
 	}
 
@@ -32,6 +33,7 @@ class CreateForumCommentsTable extends Migration {
 	public function down()
 	{
 		Schema::drop('forum_comments');
+
 	}
 
 }
