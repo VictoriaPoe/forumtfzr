@@ -16,9 +16,7 @@ class ForumComment extends Eloquent
 
     public function thread()
     {
-        return $this->belongsTo('ForumThread')->paginate(5);
-
-
+        return $this->belongsTo('ForumThread');
     }
 
     public function author()

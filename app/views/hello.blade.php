@@ -59,11 +59,10 @@
     </div>
     <br>
 
-    <!-- Jumbotron -->
-    <div class="jumbotron">
-        <h1>Opis foruma i uslovi</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+
+
+    <div id="title" class="stitched">
+        <span class="connect">Forum - Tehnički fakultet "Mihajlo Pupin"</span>
     </div>
 
     <!-- Example row of columns -->
@@ -99,7 +98,7 @@
 
             <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-            <a class="social" href="#" target="_blank">
+            <a class="social" href="https://www.facebook.com/tfMihajloPupin?fref=ts" target="_blank">
                 <div class="front">
                     <i class="fa fa-facebook"></i>
                 </div>
@@ -117,7 +116,7 @@
                 </div>
             </a>
 
-            <a class="social social-github" href="#" target="_blank">
+            <a class="social social-github" href="https://github.com/VictoriaPoe/forumtfzr" target="_blank">
                 <div class="front">
                     <i class="fa fa-github"></i>
                 </div>
@@ -135,12 +134,9 @@
                 </div>
             </a>
 
-
-        </div><!--/col-->
-    </div><!--/container-->
-
+        </div>
+    </div>
 
 
 @stop
-
 

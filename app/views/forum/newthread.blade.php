@@ -20,7 +20,7 @@
 		</div>
 		{{ Form::token() }}
 		<div class="form-group">
-			<input type="submit" value="Sačuvaj temu" class="btn btn-primary">
+           <input type="submit" value="Sačuvaj temu" class="btn btn-primary">
 		</div>
 	</form>
 

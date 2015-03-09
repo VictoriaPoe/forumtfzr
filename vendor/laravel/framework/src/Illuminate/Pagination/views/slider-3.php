@@ -1,4 +1,5 @@
 <?php
+
 	$presenter = new Illuminate\Pagination\BootstrapPresenter($paginator);
 ?>
 
