@@ -20,10 +20,6 @@ body {
     background-color: powderblue;
 }
 
-h1 {
-    text-align-all: center;
-}
-
 
 h1 {
     position: relative;
@@ -33,6 +29,10 @@ h1 {
 h2 {
     position: relative;
     text-align-all: center;
+}
+
+h3 {
+    font-weight: bold;
 }
 
 p {
@@ -204,7 +204,7 @@ form{
 }
 
 input[type="username"],input[type="password"]{
-    width:92%;
+    width:100%;
     background:#fff;
     margin-bottom:4%;
     border:1px solid #ccc;
@@ -216,22 +216,35 @@ input[type="username"],input[type="password"]{
 }
 
 input[type="submit"]{
-    width:100%;
-    background:#3399cc;
-    border:0;
-    padding:4%;
-    font-family:'Open Sans',sans-serif;
-    font-size:100%;
-    color:#fff;
-    cursor:pointer;
-    transition:background .3s;
-    -webkit-transition:background .3s;
+
+    display: inline-block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0 4em;
+    height: 3.5em;
+    font: 300 1em/3.5em 'Open Sans', sans-serif;
+    text-decoration: none;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+    letter-spacing: .08em;
+    color: #fff;
+    background: #0090C0;
+    border: solid 1px #fff;
+    border-radius: 2px;
+    -moz-transition: 0.35s ease all;
+    -o-transition: 0.35s ease all;
+    -webkit-transition: 0.35s ease all;
+    transition: 0.35s ease all;
 
 }
 
 input[type="submit"]:hover{
-    background:#2288bb;
+    background: #007DA7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5) inset;
 }
+
+
+
 
 
 

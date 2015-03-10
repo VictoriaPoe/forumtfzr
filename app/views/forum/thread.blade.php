@@ -55,7 +55,7 @@
 			</div>
 			{{ Form::token() }}
 
-
+            </br>
 				<input type="submit" value="Sačuvaj komentar" class="btn-primary">
             </form>
 </div>

@@ -61,8 +61,8 @@
 
 
 
-    <div id="title" class="stitched">
-        <span class="connect">Forum - Tehnički fakultet "Mihajlo Pupin"</span>
+    <div id="title" class="stitched ">
+        <span class="connect ">Forum - Tehnički fakultet "Mihajlo Pupin"</span>
     </div>
 
     <!-- Example row of columns -->

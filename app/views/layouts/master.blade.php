@@ -32,7 +32,8 @@
 	@elseif (Session::has('fail'))
 		<div class="alert alert-danger">{{ Session::get('fail') }}</div>
 	@endif
-	
+
+
 	<div class="container">@yield('content')</div>
 
 	@section('javascript')
@@ -55,6 +56,5 @@
         </div>
 
     </div>
-
 </body>
 </html>

@@ -9,9 +9,6 @@
 
     </br>
     </br>
-    </br>
-    </br>
-
 
     <div id="login">
 	<div class="frames-container">
@@ -19,7 +16,7 @@
 
 		<form role="form" method="post" action="{{ URL::route('postCreate') }}">
 			<div class="form-group {{ ($errors->has('username')) ? ' has-error' : '' }}">
-				<label for="username">Korisničko ime: </lable>
+				<label for="username"> Korisničko ime: </label>
 					<input id="username" name="username" type="text" class="form-control">
 					@if($errors->has('username'))
 						{{ $errors->first('username') }}
@@ -27,7 +24,7 @@
 			</div>
 
             <div class="form-group {{ ($errors->has('email')) ? ' has-error' : '' }}">
-                <label for="email">E-mail: </lable>
+                <label for="email">E-mail: </label>
                 <input id="email" name="email" type="text" class="form-control">
                 @if($errors->has('email'))
                     {{ $errors->first('email') }}
@@ -35,14 +32,14 @@
             </div>
 
 			<div class="form-group {{ ($errors->has('pass1')) ? ' has-error' : '' }}">
-				<label for="pass1">Korisnička šifra: </lable>
+				<label for="pass1">Korisnička šifra: </label>
 					<input id="pass1" name="pass1" type="password" class="form-control">
 					@if($errors->has('pass1'))
 						{{ $errors->first('pass1') }}
 					@endif
 			</div>
 			<div class="form-group {{ ($errors->has('pass2')) ? ' has-error' : '' }}">
-				<label for="pass2">Potvrdite šifru: </lable>
+				<label for="pass2">Potvrdite šifru: </label>
 					<input id="pass2" name="pass2" type="password" class="form-control">
 					@if($errors->has('pass2'))
 						{{ $errors->first('pass2') }}
@@ -64,16 +61,16 @@
 </br>
 </br>
 </br>
+</br>
 
     <div class="container">
         <div class="sentence">
-            <h1><span>Y</span><span>a</span><span>y</span><span>!</span><span> </span><span>J</span><span>e</span><span>l</span><span>l</span><span>y</span><span> </span><span>t</span><span>e</span><span>x</span><span>t</span>
+            <h1><span>D</span><span>o</span><span>b</span><span>r</span><span>o</span><span> </span><span>d</span><span>o</span><span>š</span><span>l</span><span>i</span><span> </span><span>n</span><span>a</span><span> </span>
             </h1>
-            <h2><span>m</span><span>o</span><span>v</span><span>e</span><span> </span><span>y</span><span>o</span><span>u</span><span>r</span><span> </span><span>m</span><span>o</span><span>u</span><span>s</span><span>e</span><span> </span><span>a</span><span>r</span><span>o</span><span>u</span><span>n</span><span>d</span>
+            <h2><span>T</span><span>F</span><span>Z</span><span>R</span><span> </span><span>f</span><span>o</span><span>r</span><span>u</span><span>m</span>
             </h2>
         </div>
     </div>
 
-
-
 @stop
+
