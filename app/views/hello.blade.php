@@ -97,22 +97,13 @@
             <hr>
 
             <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
+            <div class="row">
             <a class="social" href="https://www.facebook.com/tfMihajloPupin?fref=ts" target="_blank">
                 <div class="front">
                     <i class="fa fa-facebook"></i>
                 </div>
                 <div class="back">
                     <i class="fa fa-facebook"></i>
-                </div>
-            </a>
-
-            <a class="social social-twitter" href="#" target="_blank">
-                <div class="front">
-                    <i class="fa fa-twitter"></i>
-                </div>
-                <div class="back">
-                    <i class="fa fa-twitter"></i>
                 </div>
             </a>
 
@@ -134,9 +125,18 @@
                 </div>
             </a>
 
+            <a class ="social email" href="#" target="_blank">
+            <div class="front">
+                    <i class="icon fa fa-envelope"></i>
+            </div>
+                <div class="back">
+                    <i class="icon fa fa-envelope"></i>
+                </div>
+            </a>
+
+          </div>
         </div>
     </div>
-
 
 @stop
 

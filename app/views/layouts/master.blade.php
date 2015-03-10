@@ -46,16 +46,19 @@
     @section('styles')
         <?php echo HTML::style('css/style.css'); ?>
     @show
-</br>
+
     <ul class="nav pull-right scroll-top">
         <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li></ul>
+        </br>
+        </br>
 
-<div id="content_footer"></div>
+<div id="content_footer footer-fixed"></div>
 <div id="footer">
-    <p><a href="#">Home</a> | <a href="#">Examples</a> | <a href="#">A Page</a> | <a href="#">Another Page</a> | <a href="#">Contact Us</a></p>
-    <p>Tehnički fakultet "Mihajlo Pupin" Zrenjanin | <a href="#">HTML5</a> | <a href="#">CSS</a> | <a href="#">E-mail foruma, neki tekst</a></p>
+    <p><a href="#">Home</a> | <a href="#">Another Page</a> | <a href="#">Contact Us</a></p>
+    <p>Tehnički fakultet "Mihajlo Pupin" Zrenjanin | <a href="#">E-mail foruma, neki tekst</a></p>
 </div>
 
-
 </body>
+
 </html>
+
