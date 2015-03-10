@@ -52,8 +52,6 @@
 				<input type="submit" value="Registrujte se" class="btn btn-primary ">
 			</div>
         </form>
-
-
 </div>
 </div>
 
