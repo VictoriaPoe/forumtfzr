@@ -41,6 +41,8 @@
 			@if (Auth::check() && Auth::user()->isAdmin())
 				<a href="{{ URL::route('forum-delete-comment', $comment->id) }}" class="btn btn-danger">Obriši komentar</a>
 			@endif
+
+
 		</div>
 </div>
         </br>
@@ -60,7 +62,8 @@
             </form>
 </div>
 
-@endif
+
+    @endif
 
 @stop
 

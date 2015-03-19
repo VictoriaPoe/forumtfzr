@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/style.css">
         <script type="text/javascript" src="js/app.js"></script>
+
     @show
 
 </head>
@@ -40,7 +41,7 @@
 		<script src="http://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="js/app.js" type="javascript"></script>
-
+        <script src="//twemoji.maxcdn.com/twemoji.min.js"></script>
     @show
 
     @section('styles')

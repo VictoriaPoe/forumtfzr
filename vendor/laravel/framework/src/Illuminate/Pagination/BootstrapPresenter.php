@@ -26,6 +26,7 @@ class BootstrapPresenter extends Presenter
      */
     public function getDisabledTextWrapper($text)
     {
+
         return '<li class="disabled"><span>' . $text . '</span></li>';
     }
 

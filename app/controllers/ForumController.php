@@ -24,6 +24,7 @@ class ForumController extends BaseController
 
 	public function thread($id)
 	{
+
 		$thread = ForumThread::find($id);
 		if ($thread == null)
 		{
@@ -234,11 +235,12 @@ class ForumController extends BaseController
 	public function storeComment($id)
 	{
 		$thread = ForumThread::find($id);
+
 		if ($thread == null)
 			Redirect::route('forum')->with('fail', "Odabrana tema ne postoji.");
 
 		$validator = Validator::make(Input::all(), array(
-			'body' => 'required|min:3'
+			'body' => 'required|min:2'
 		));
 
 		if ($validator->fails())
@@ -251,6 +253,7 @@ class ForumController extends BaseController
 			$comment->thread_id = $id;
 			$comment->category_id = $thread->category->id;
 			$comment->group_id = $thread->group->id;
+
 
 			if ($comment->save())
 				return Redirect::route('forum-thread', $id)->with('success', "Komentar je sačuvan.");

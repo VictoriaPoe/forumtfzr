@@ -17,12 +17,14 @@ class ForumComment extends Eloquent
     public function thread()
     {
         return $this->belongsTo('ForumThread');
+
     }
 
     public function author()
     {
         return $this->belongsTo('User');
     }
+
 
 
 }
