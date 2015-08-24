@@ -24,7 +24,7 @@
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         </ol>
 
-        <!-- Wrapper for slides -->
+        <!-- Slike će se menjati ovo je samo primer -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="http://www.hotel-feinschmeck.com/typo3temp/GB/d606188f0b.jpg" alt="...">
